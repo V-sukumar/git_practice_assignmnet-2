@@ -4,5 +4,14 @@ function prime(num){
         if(num%i==0){
             count++;
         }
+    }if(count==2){
+        return true;
+    }else{
+        return false;
     }
+}let ans=prime(13)
+if(ans==true){
+    console.log("It is prime");
+}else{
+    console.log("It is not prime");
 }
