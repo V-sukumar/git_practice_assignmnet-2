@@ -5,4 +5,10 @@ function prime(num){
             count++;
         }
     }
+	if (count==2){
+	console.log("Prime");
+ }else{
+	console.log("Not prime")
 }
+}
+prime(13)
